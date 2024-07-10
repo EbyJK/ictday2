@@ -8,8 +8,8 @@ import Tabs from './components/Tabs'
 import Navbar from './components/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import StateBasics from './components/StateBasics'
-
 import Counter2 from './components/Counter2'
+import Task1 from './components/Task1'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -25,6 +25,7 @@ function App() {
         <Route path="/tab" element={<Tabs/>}/>
         <Route path="/statebasics" element={<StateBasics/>}/>
         <Route path="/counter" element={<Counter2/>}/>
+        <Route path='/task1' element={<Task1/>}/>
       </Routes>
 
     </>
